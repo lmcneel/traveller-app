@@ -10,17 +10,14 @@
     - [x] DELETE route `/api/locations/:id`
     - [x] POST route `/api/trips`
     - [x] DELETE route `/api/trips/:id`
-- [ ] Create Traveller Model
+- [x] Create Traveller Model
     - * `id`: primary key
     - * `name`
     - * `email`
-    - * `Location`
+- [x] Create the Locations Model
     - * `id`: primary key
     - * `name`
-- [] Create the Locations Model
-    - * `id`: primary key
-    - * `name`
-- [ ] Create Trips Model
+- [x] Create Trips Model
     - * `id`: primary key
     - * `trip_budget` 
     - * `traveller_amount`
