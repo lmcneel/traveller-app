@@ -5,14 +5,21 @@ class Trip extends Model {}
 
 Trip.init(
   {
-    trip_budget: {
-      type: DataTypes.DECIMAL,
+    id: {
+      type: DataTypes.INTEGER,
       allowNull: false,
+      primaryKey: true,
+      autoIncrement: true
+    },
+    trip_budget: {
+      type: DataTypes.DECIMAL(10, 2),
+      allowNull: true
     },
     traveller_amount: {
-      type: DataTypes.DECIMAL,
+      type: DataTypes.INTEGER,
       allowNull: false,
-    }
+      defaultValue: 1
+    },
   },
   {
     sequelize,
