@@ -1,15 +1,15 @@
-- [ ] Get Express up and running
-- [ ] Add scaffolding for routes
-    - [ ] GET route `/api/travellers`
-    - [ ] POST route `/api/travellers`
-    - [ ] GET route `/api/travellers/:id`
-    - [ ] DELETE route `/api/travellers/:id`
-    - [ ] GET route `/api/locations`
-    - [ ] POST route `/api/locations`
-    - [ ] GET route `/api/locations/:id`
-    - [ ] DELETE route `/api/locations/:id`
-    - [ ] POST route `/api/trips`
-    - [ ] DELETE route `/api/trips/:id`
+- [x] Get Express up and running
+- [x] Add scaffolding for routes
+    - [x] GET route `/api/travellers`
+    - [x] GET route `/api/travellers/:id`
+    - [x] POST route `/api/travellers`
+    - [x] DELETE route `/api/travellers/:id`
+    - [x] GET route `/api/locations`
+    - [x] POST route `/api/locations`
+    - [x] GET route `/api/locations/:id`
+    - [x] DELETE route `/api/locations/:id`
+    - [x] POST route `/api/trips`
+    - [x] DELETE route `/api/trips/:id`
 - [ ] Create Traveller Model
     - * `id`: primary key
     - * `name`
